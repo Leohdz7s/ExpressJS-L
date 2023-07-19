@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leohdz7s/ExpressJSlh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leohdz7s/ExpressJSlh/issues"
+  },
+  "homepage": "https://github.com/Leohdz7s/ExpressJSlh#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
