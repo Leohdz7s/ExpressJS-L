@@ -1,10 +1,11 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 8000
+const firebaseAuth = require('./src/services/firebase/auth');
+const routes = require('./src/routes');
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+app.use(firebaseAuth);
+routes(app);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
